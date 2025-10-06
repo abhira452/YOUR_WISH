@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Downloader</title>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 100px;">
+  <h1>🎬 YouTube Video Downloader</h1>
+
+  <form action="/download" method="post">
+    <input type="text" name="url" placeholder="Enter YouTube URL" size="50" required><br><br>
+
+    <label>Select Quality:</label>
+    <select name="quality">
+      <option value="360p">360p</option>
+      <option value="480p">480p</option>
+      <option value="720p">720p</option>
+      <option value="1080p">1080p</option>
+      <option value="1440p">1440p</option>
+    </select><br><br>
+
+    <button type="submit">Download</button>
+  </form>
+</body>
+</html>
